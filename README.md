@@ -45,103 +45,113 @@ Validation data was selected with a ratio of 4:1 of the training data. Below are
 
 ### ROC AUC Score:
 
-  Logistic Regression 0.9145264918148214
-  Support vecotr classifier 0.9316317549727161
-  Random Forest Classifier 0.9372249603942968
-  XGBoost 0.9372381622953705
-  LightGBM 0.9411855307164232
+  Logistic Regression:  0.9145264918148214
+  Support vecotr classifier:  0.9316317549727161
+  Random Forest Classifier:  0.9372249603942968
+  XGBoost:  0.9372381622953705
+  LightGBM:  0.9411855307164232
 
 ### F1 - Score:
 
-  Logistic Regression 0.894393741851369
-  Support vecotr classifier 0.9128205128205129
-  Random Forest Classifier 0.9261744966442953
-  XGBoost 0.9226736566186108
-  LightGBM 0.9268929503916449
+  Logistic Regression:  0.894393741851369
+  Support vecotr classifier:  0.9128205128205129
+  Random Forest Classifier:  0.9261744966442953
+  XGBoost:  0.9226736566186108
+  LightGBM:  0.9268929503916449
 
 ### Confusion Matrix:
 
   Logistic Regression
-      0    1 
-  0   554  44
-  1   37 343
+  
+          0    1 
+      0   554  44
+      1   37 343
 
   Support vecotr classifier
-      0    1 
-  0   554  44
-  1   24 356
+  
+          0    1 
+      0   554  44
+      1   24 356
 
   Random Forest Classifier
-       0    1 
-  0   578  20
-  1   35 345
+
+          0    1 
+      0   578  20
+      1   35 345
 
   XGBoost
-      0    1 
-  0   567  31
-  1   28 352
+
+          0    1 
+      0   567  31
+      1   28 352
 
    LightGBM
-       0    1 
-  0   567  31
-  1   25 355
+
+          0    1 
+      0   567  31
+      1   25 355
  
  ### Classification report:
  
    Logistic Regression
-                 precision    recall  f1-score   support
+   
+                   precision    recall  f1-score   support
 
-             0       0.94      0.93      0.93       598
-             1       0.89      0.90      0.89       380
+               0       0.94      0.93      0.93       598
+               1       0.89      0.90      0.89       380
 
-      accuracy                           0.92       978
-     macro avg       0.91      0.91      0.91       978
-  weighted avg       0.92      0.92      0.92       978
+        accuracy                           0.92       978
+       macro avg       0.91      0.91      0.91       978
+    weighted avg       0.92      0.92      0.92       978
 
 
   Support vecotr classifier
-                 precision    recall  f1-score   support
+  
+                   precision    recall  f1-score   support
 
-             0       0.96      0.93      0.94       598
-             1       0.89      0.94      0.91       380
+               0       0.96      0.93      0.94       598
+               1       0.89      0.94      0.91       380
 
-      accuracy                           0.93       978
-     macro avg       0.92      0.93      0.93       978
-  weighted avg       0.93      0.93      0.93       978
+        accuracy                           0.93       978
+       macro avg       0.92      0.93      0.93       978
+    weighted avg       0.93      0.93      0.93       978
 
 
   Random Forest Classifier
-                 precision    recall  f1-score   support
+  
+                   precision    recall  f1-score   support
 
-             0       0.94      0.97      0.95       598
-             1       0.95      0.91      0.93       380
+               0       0.94      0.97      0.95       598
+               1       0.95      0.91      0.93       380
 
-      accuracy                           0.94       978
-     macro avg       0.94      0.94      0.94       978
-  weighted avg       0.94      0.94      0.94       978
+        accuracy                           0.94       978
+       macro avg       0.94      0.94      0.94       978
+    weighted avg       0.94      0.94      0.94       978
 
 
   XGBoost
-                 precision    recall  f1-score   support
+  
+                   precision    recall  f1-score   support
 
-             0       0.95      0.95      0.95       598
-             1       0.92      0.93      0.92       380
+               0       0.95      0.95      0.95       598
+               1       0.92      0.93      0.92       380
 
-      accuracy                           0.94       978
-     macro avg       0.94      0.94      0.94       978
-  weighted avg       0.94      0.94      0.94       978
+        accuracy                           0.94       978
+       macro avg       0.94      0.94      0.94       978
+    weighted avg       0.94      0.94      0.94       978
 
 
   LightGBM
-                 precision    recall  f1-score   support
 
-             0       0.96      0.95      0.95       598
-             1       0.92      0.93      0.93       380
+                   precision    recall  f1-score   support
 
-      accuracy                           0.94       978
-     macro avg       0.94      0.94      0.94       978
-  weighted avg       0.94      0.94      0.94       978
+               0       0.96      0.95      0.95       598
+               1       0.92      0.93      0.93       380
 
+        accuracy                           0.94       978
+       macro avg       0.94      0.94      0.94       978
+    weighted avg       0.94      0.94      0.94       978
+  
 ## Test Result
 
 submission.csv can be checked for submission results.
