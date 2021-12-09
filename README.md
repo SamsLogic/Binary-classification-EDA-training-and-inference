@@ -45,19 +45,19 @@ Validation data was selected with a ratio of 4:1 of the training data. Below are
 
 ### ROC AUC Score:
 
-  Logistic Regression:  0.9145264918148214
-  Support vecotr classifier:  0.9316317549727161
-  Random Forest Classifier:  0.9372249603942968
-  XGBoost:  0.9372381622953705
-  LightGBM:  0.9411855307164232
+  1. Logistic Regression:  0.9145264918148214
+  2. Support vecotr classifier:  0.9316317549727161
+  3. Random Forest Classifier:  0.9372249603942968
+  4. XGBoost:  0.9372381622953705
+  5. LightGBM:  0.9411855307164232
 
 ### F1 - Score:
 
-  Logistic Regression:  0.894393741851369
-  Support vecotr classifier:  0.9128205128205129
-  Random Forest Classifier:  0.9261744966442953
-  XGBoost:  0.9226736566186108
-  LightGBM:  0.9268929503916449
+  1. Logistic Regression:  0.894393741851369
+  2. Support vecotr classifier:  0.9128205128205129
+  3. Random Forest Classifier:  0.9261744966442953
+  4. XGBoost:  0.9226736566186108
+  5. LightGBM:  0.9268929503916449
 
 ### Confusion Matrix:
 
