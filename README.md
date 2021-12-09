@@ -22,11 +22,11 @@ My Approach to work upon the dataset was both data centric. EDA was performed on
 
 ## Files
 
-train.csv - To be used as training and validation set - 3910 records, 57 features, 1 output
-test_set.csv - To be used for prediction - 691 records, 57 features
-Submission.csv - Model prediction results
-EDA, Train and Inference.py - Script for EDA, training and prediction
-EDA, Train and Inference.ipynb - Notebook for EDA, training and prediction
+1. train.csv - To be used as training and validation set - 3910 records, 57 features, 1 output
+2. test_set.csv - To be used for prediction - 691 records, 57 features
+3. Submission.csv - Model prediction results
+4. EDA, Train and Inference.py - Script for EDA, training and prediction
+5. EDA, Train and Inference.ipynb - Notebook for EDA, training and prediction
 
 ## Models
 
